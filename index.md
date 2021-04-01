@@ -3,7 +3,7 @@
 ## Probability Mass Function (PMF):
 Probability over Discrete variables.
 ```markdown
-
+![Image](https://github.com/vinita1005/Probability-Theory-and-Information-Theory/blob/gh-pages/math-1.png)
 ```
 
 ## Probability Density Function (PDF):
