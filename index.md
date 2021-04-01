@@ -31,34 +31,37 @@ Probability of an event, given that some other event has happened.
 
 ## Chain Rule:
 
-<img src="https://github.com/vinita1005/Probability-Theory-and-Information-Theory/blob/gh-pages/math-5.png" width="160" height="25" />
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mi>P</mi><mo fence="true" stretchy="false">(</mo><mi>a</mi><mo separator="true">,</mo><mi>b</mi><mo separator="true">,</mo><mi>c</mi><mo fence="true" stretchy="false">)</mo><mo form="infix">=</mo><mi>P</mi><mo fence="true" stretchy="false">(</mo><mi>a</mi><mo stretchy="false">|</mo><mi>b</mi><mo separator="true">,</mo><mi>c</mi><mo fence="true" stretchy="false">)</mo><mspace is="true" width="0.22em"></mspace><mi>P</mi><mo fence="true" stretchy="false">(</mo><mi>b</mi><mo stretchy="false">|</mo><mi>c</mi><mo fence="true" stretchy="false">)</mo><mspace is="true" width="0.22em"></mspace><mi>P</mi><mo fence="true" stretchy="false">(</mo><mi>c</mi><mo fence="true" stretchy="false">)</mo></math>
 
 ## Independence Rule:
 
-<img src="https://github.com/vinita1005/Probability-Theory-and-Information-Theory/blob/gh-pages/math-6.png" width="170" height="40" />
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnwidth="100%" width="100%" columnalign="center"><mtr><mtd><mrow><mo form="prefix">∀</mo><mi>x</mi><mo form="infix">∈</mo><mi>X</mi><mo separator="true">,</mo><mspace is="true" width="0.66em"></mspace><mi>y</mi><mo form="infix">∈</mo><mi>Y</mi><mo separator="true">,</mo><mspace is="true" width="0.44em"></mspace></mrow></mtd></mtr><mtr><mtd><mrow><mspace is="true" width="1.32em"></mspace><mi>p</mi><mo fence="true" stretchy="false">(</mo><mi>X</mi><mo form="infix">=</mo><mi>x</mi><mo separator="true">,</mo><mi>Y</mi><mo form="infix">=</mo><mi>y</mi><mo fence="true" stretchy="false">)</mo><mo form="infix">=</mo><mi>P</mi><mo fence="true" stretchy="false">(</mo><mi>X</mi><mo form="infix">=</mo><mi>x</mi><mo fence="true" stretchy="false">)</mo><mspace is="true" width="0.22em"></mspace><mi>P</mi><mo fence="true" stretchy="false">(</mo><mi>Y</mi><mo form="infix">=</mo><mi>y</mi><mo fence="true" stretchy="false">)</mo></mrow></mtd></mtr></mtable></math>
 
 ## Conditional Independence:
 
-<img src="https://github.com/vinita1005/Probability-Theory-and-Information-Theory/blob/gh-pages/math-7.png" width="160" height="40" />
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mtable columnwidth="100%" width="100%" columnalign="center"><mtr><mtd><mrow><mo form="prefix">∀</mo><mi>x</mi><mo form="infix">∈</mo><mi>X</mi><mo separator="true">,</mo><mspace is="true" width="0.66em"></mspace><mi>y</mi><mo form="infix">∈</mo><mi>Y</mi><mo separator="true">,</mo><mspace is="true" width="0.88em"></mspace><mi>z</mi><mo form="infix">∈</mo><mi>Z</mi><mo separator="true">,</mo><mspace is="true" width="0.66em"></mspace></mrow></mtd></mtr><mtr><mtd><mrow><mspace is="true" width="0.88em"></mspace><mi>p</mi><mo fence="true" stretchy="false">(</mo><mi>X</mi><mo form="infix">=</mo><mi>x</mi><mo separator="true">,</mo><mi>Y</mi><mo form="infix">=</mo><mi>y</mi><mspace is="true" width="0.22em"></mspace><mo stretchy="false">|</mo><mspace is="true" width="0.22em"></mspace><mi>Z</mi><mo form="infix">=</mo><mi>z</mi><mo fence="true" stretchy="false">)</mo><mo form="infix">=</mo><mi>p</mi><mo fence="true" stretchy="false">(</mo><mi>X</mi><mo form="infix">=</mo><mi>x</mi><mspace is="true" width="0.22em"></mspace><mo stretchy="false">|</mo><mspace is="true" width="0.22em"></mspace><mi>Y</mi><mo form="infix">=</mo><mi>y</mi><mo fence="true" stretchy="false">)</mo><mspace is="true" width="0.22em"></mspace><mi>p</mi><mo fence="true" stretchy="false">(</mo><mi>Y</mi><mo form="infix">=</mo><mi>y</mi><mspace is="true" width="0.22em"></mspace><mo stretchy="false">|</mo><mspace is="true" width="0.22em"></mspace><mi>Z</mi><mo form="infix">=</mo><mi>z</mi><mo fence="true" stretchy="false">)</mo></mrow></mtd></mtr></mtable></math>
 
 ## Expectation:
 Average value which f takes on when x is drawn from P.
 ### Discrete
 
-<img src="https://github.com/vinita1005/Probability-Theory-and-Information-Theory/blob/gh-pages/math-8a.png" width="140" height="60" />
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mi mathvariant="double-struck">E</mi><mi>x</mi><mi>~</mi><mi>p</mi><mo fence="true" stretchy="false">[</mo><mi>f</mi><mo fence="true" stretchy="false">(</mo><mi>x</mi><mo fence="true" stretchy="false">)</mo><mo fence="true" stretchy="false">]</mo><mo form="infix">=</mo><munderover><mo largeop="true" movablelimit="true">∑</mo><mi>x</mi><mrow></mrow></munderover><mi>p</mi><mo fence="true" stretchy="false">(</mo><mi>x</mi><mo fence="true" stretchy="false">)</mo><mi>f</mi><mo fence="true" stretchy="false">(</mo><mi>x</mi><mo fence="true" stretchy="false">)</mo></math>
 
 ### Continuous
 
-<img src="https://github.com/vinita1005/Probability-Theory-and-Information-Theory/blob/gh-pages/8b.png" width="140" height="60" />
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mi mathvariant="double-struck">E</mi><mi>x</mi><mi>~</mi><mi>p</mi><mo fence="true" stretchy="false">[</mo><mi>f</mi><mo fence="true" stretchy="false">(</mo><mi>x</mi><mo fence="true" stretchy="false">)</mo><mo fence="true" stretchy="false">]</mo><mo form="infix">=</mo><mo largeop="true">∫</mo><mi>p</mi><mo fence="true" stretchy="false">(</mo><mi>x</mi><mo fence="true" stretchy="false">)</mo><mi>F</mi><mo fence="true" stretchy="false">(</mo><mi>x</mi><mo fence="true" stretchy="false">)</mo><mspace is="true" width="0.22em"></mspace><mi>d</mi><mi>x</mi></math>
 
 ## Variance:
 
-<img src="https://github.com/vinita1005/Probability-Theory-and-Information-Theory/blob/gh-pages/math-10.png" width="140" height="60" />
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mi>V</mi><mi>a</mi><mi>r</mi><mo fence="true" stretchy="false">(</mo><mi>f</mi><mo fence="true" stretchy="false">(</mo><mi>x</mi><mo fence="true" stretchy="false">)</mo><mo fence="true" stretchy="false">)</mo><mo form="infix">=</mo><mi mathvariant="double-struck">E</mi><mo fence="true">[</mo><mo fence="true" stretchy="false">(</mo><mi>f</mi><mo fence="true" stretchy="false">(</mo><mi>x</mi><mo fence="true" stretchy="false">)</mo><mo form="infix">-</mo><mi mathvariant="double-struck">E</mi><mo fence="true" stretchy="false">[</mo><mi>f</mi><mo fence="true" stretchy="false">(</mo><mi>x</mi><mo fence="true" stretchy="false">)</mo><mo fence="true" stretchy="false">]</mo><msup><mo fence="true" stretchy="false">)</mo><mn>2</mn></msup><mo fence="true">]</mo></math>
+
+... how much f(x) varies from its value.
 
 ## Covariance:
+
 Measures how two values are linearly related.
 
-<img src="https://github.com/vinita1005/Probability-Theory-and-Information-Theory/blob/gh-pages/math-11.png" width="140" height="60" />
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><mi>C</mi><mi>o</mi><mi>v</mi><mo fence="true" stretchy="false">(</mo><mi>f</mi><mo fence="true" stretchy="false">(</mo><mi>x</mi><mo fence="true" stretchy="false">)</mo><mo separator="true">,</mo><mi>g</mi><mo fence="true" stretchy="false">(</mo><mi>y</mi><mo fence="true" stretchy="false">)</mo><mo fence="true" stretchy="false">)</mo><mo form="infix">=</mo><mi>E</mi><mo fence="true" stretchy="false">[</mo><mspace is="true" width="0.22em"></mspace><mo fence="true" stretchy="false">(</mo><mspace is="true" width="0.22em"></mspace><mi>f</mi><mo fence="true" stretchy="false">(</mo><mi>x</mi><mo fence="true" stretchy="false">)</mo><mo form="infix">-</mo><mi>E</mi><mo fence="true" stretchy="false">[</mo><mi>f</mi><mo fence="true" stretchy="false">(</mo><mi>x</mi><mo fence="true" stretchy="false">)</mo><mo fence="true" stretchy="false">]</mo><mspace is="true" width="0.22em"></mspace><mo fence="true" stretchy="false">)</mo><mspace is="true" width="0.22em"></mspace><mi>*</mi><mspace is="true" width="0.22em"></mspace><mo fence="true" stretchy="false">(</mo><mspace is="true" width="0.22em"></mspace><mi>g</mi><mo fence="true" stretchy="false">(</mo><mi>y</mi><mo fence="true" stretchy="false">)</mo><mo form="infix">-</mo><mi>E</mi><mo fence="true" stretchy="false">[</mo><mi>g</mi><mo fence="true" stretchy="false">(</mo><mi>y</mi><mo fence="true" stretchy="false">)</mo><mo fence="true" stretchy="false">]</mo><mspace is="true" width="0.22em"></mspace><mo fence="true" stretchy="false">)</mo><mspace is="true" width="0.22em"></mspace><mo fence="true" stretchy="false">]</mo></math>
 
 **Independant variables have 0 covariance.
 
