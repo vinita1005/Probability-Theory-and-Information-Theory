@@ -1,8 +1,64 @@
-## Welcome to GitHub Pages
+# Probability Theory for ML basics
 
-You can use the [editor on GitHub](https://github.com/vinita1005/Probability-Theory-and-Information-Theory/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Probability Mass Function (PMF):
+Probability over Discrete variables.
+```markdown
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+```
+
+## Probability Density Function (PDF):
+Probability over continuous functions.
+```markdown
+
+```
+
+## Marginal Probability:
+Joint Distribution of several variables can be computed using:
+```markdown
+
+```
+
+## Conditional Probability:
+Probability of an event, given that some other event has happened.
+```markdown
+
+```
+
+# Basic Rules and Terminologies:
+
+## Chain Rule:
+```markdown
+
+```
+## Independence Rule:
+```markdown
+
+```
+## Conditional Independence:
+```markdown
+
+```
+## Expectation:
+Average value which f takes on when x is drawn from P.
+### Discrete
+```markdown
+
+```
+### Continuous
+```markdown
+
+```
+## Variance:
+```markdown
+
+```
+## Covariance:
+Measures how two values are linearly related.
+```markdown
+
+```
+**Independant variables have 0 covariance.
+
 
 ### Markdown
 
